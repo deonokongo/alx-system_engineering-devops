@@ -4,3 +4,4 @@ exec { 'killmenow_process':
   onlyif  => 'pgrep killmenow',
 }
 
+
