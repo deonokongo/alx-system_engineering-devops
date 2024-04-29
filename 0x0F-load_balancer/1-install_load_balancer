@@ -34,14 +34,14 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend clickviral-tech-frontend
+frontend myalxproject.tech
     bind *:80
     default_backend clickviral-tech-backend
 
-backend clickviral-tech-backend
+backend myalxproject.tech-backend
     balance roundrobin
-    server 151666-web-01 54.144.154.245:80 check
-    server 151666-web-02 54.157.146.105:80 check
+    server 531640-web-01 54.144.154.245:80 check
+    server 531640-web-02 54.157.146.105:80 check
 "
 
 # shellcheck disable=SC2154
